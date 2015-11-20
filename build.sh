@@ -1,0 +1,1 @@
+mvn clean package docker:build && docker run -p 8080:8080 -d -t nl-arjan/task-planning-service
